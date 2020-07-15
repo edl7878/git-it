@@ -1,16 +1,28 @@
 # git-it
 
+## Very Basic
 . mkdir
 . git init
 . git status
-. git add <filename>
-. git add .
+. git add <filename>... //add files listed by names divided by spaces
+. git add . // add all
 . git commit -m "your commit message"
-. git config --global user.username
-. git config --global user.email
-. git config --global user.username <username>
-. git config --global user.email <email>
+. git config --global user.username //show
+. git config --global user.email //show
+. git config --global user.username <username> //set
+. git config --global user.email <email> //set
 . git remote add origin <remoteUrl>
 +
  The primary remote is typically named origin.
 . git remote set-url origin <remoteUrl>
+. git remote -v //View remote addresses
+. git push <REMOTENAME> <BRANCH>
+. git pull <REMOTENAME> <BRANCHNAME>
+
+## fork
+
+* When you *fork a repository*, you're creating a copy of it *on your GitHub account*. 
+* Forks are used for creating your own version of a project (this diversion from the original is like taking a fork in the road) or contributing back your changes (such as bug fixes or new features) to the original project.
+* To get a forked repository from your GitHub account onto your computer you *clone* it.
+
+image::clone.png[alt]
