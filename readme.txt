@@ -3,3 +3,4 @@
 . mkdir
 . git init
 . git status
+. git commit -m
